@@ -1,0 +1,30 @@
+{
+  "maxcomplexity": 8,
+  "asi": true,
+  "strict": false,
+  "maxstatements": 15,
+  "maxlen": 120,
+  "maxdepth": 4,
+  "maxparams": 4,
+  "immed" : true,
+  "newcap" : true,
+  "noarg" : true,
+  "sub" : true,
+  "undef" : true,
+  "smarttabs": true,
+  "boss" : true,
+  "indent": 2,
+  "eqnull" : true,
+  "camelcase": true,
+  "laxcomma": false,
+  "browser" : true,
+  "node": true,
+  "devel": true,
+  "esnext": true,
+  "globals": {
+    "describe": true,
+    "it": true,
+    "beforeEach": true,
+    "afterEach": true
+  }
+}

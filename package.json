@@ -1,0 +1,32 @@
+{
+  "name": "eggshell2",
+  "version": "0.0.1",
+  "description": "A sandbox for learning select microlibraries and composing into a shell.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jshint **/*.js",
+    "prebuild": "npm run lint",
+    "build": "browserify js/main.js -d -t 6to5ify | exorcist js/bundle.js.map > js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twalker/eggshell2.git"
+  },
+  "author": "twalker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twalker/eggshell2/issues"
+  },
+  "homepage": "https://github.com/twalker/eggshell2",
+  "devDependencies": {
+    "6to5ify": "^3.0.0",
+    "browserify": "^8.0.2",
+    "exorcist": "^0.1.6",
+    "jshint": "^2.5.11",
+    "watch": "^0.13.0"
+  },
+  "dependencies": {
+    "6to5": "^2.2.0"
+  }
+}
