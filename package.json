@@ -2,8 +2,9 @@
   "name": "eggshell2",
   "version": "0.0.1",
   "description": "A sandbox for learning select microlibraries and composing into a shell.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "jshint **/*.js",
     "prebuild": "npm run lint",
@@ -27,6 +28,7 @@
     "watch": "^0.13.0"
   },
   "dependencies": {
-    "6to5": "^2.2.0"
+    "6to5": "^2.2.0",
+    "express": "^4.10.6"
   }
 }
