@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "jshint **/*.js",
     "XXXprebuild": "npm run lint",
-    "build": "browserify js/main.js -d -t reactify -t 6to5ify | exorcist js/bundle.js.map > js/bundle.js",
+    "build": "browserify js/main.js -d -t reactify -t 6to5ify | exorcist dist/bundle.js.map > dist/bundle.js",
     "build:watch": "watch 'npm run build' ./js"
   },
   "repository": {

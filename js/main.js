@@ -1,14 +1,10 @@
 
-export var name = "Eggshell2"
 import React from 'react'
+import pkg from '../package.json'
 
-var Hello = React.createClass({
-  render: function() {
-    return <h1>Hello, {this.props.name}!</h1>
-  }
-})
+import App from './components/app.jsx'
 
 React.render(
-  <Hello name="Eggshell2" />,
-  document.getElementById('react')
+  <App name={pkg.name} />,
+  document.getElementById('spa')
 )
