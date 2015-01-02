@@ -1,2 +1,6 @@
 /* TODO: styling */
 * {box-sizing: border-box;}
+
+.cracked {
+  text-decoration: line-through;
+}
