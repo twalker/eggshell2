@@ -9,7 +9,7 @@
     "lint": "jshint public/js/**/*.js",
     "XXXprebuild": "npm run lint",
     "build": "browserify public/js/main.js -d -t reactify -t 6to5ify | exorcist public/dist/bundle.js.map > public/dist/bundle.js",
-    "build:watch": "watch 'npm run build' ./js"
+    "build:watch": "watch 'npm run build' ./public/js"
   },
   "repository": {
     "type": "git",
