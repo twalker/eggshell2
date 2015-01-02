@@ -1,6 +1,6 @@
 
 import React from 'react'
-import pkg from '../package.json'
+import pkg from '../../package.json'
 
 import App from './components/app.jsx'
 

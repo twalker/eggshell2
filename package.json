@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "jshint **/*.js",
+    "lint": "jshint public/js/**/*.js",
     "XXXprebuild": "npm run lint",
-    "build": "browserify js/main.js -d -t reactify -t 6to5ify | exorcist dist/bundle.js.map > dist/bundle.js",
+    "build": "browserify public/js/main.js -d -t reactify -t 6to5ify | exorcist public/dist/bundle.js.map > public/dist/bundle.js",
     "build:watch": "watch 'npm run build' ./js"
   },
   "repository": {

@@ -5,7 +5,7 @@ A sandbox for learning, assembling, and making sense of select microlibraries
 
 - "framework": Flux or Ampersand (models, router, etc.)
 - modules: browserify or es6 modules, or system.js if needed.
-- Modles: stores??
+- Models: stores??
 - Views: react
 - task runner: npm
 
@@ -16,6 +16,7 @@ A sandbox for learning, assembling, and making sense of select microlibraries
 - get jshint working with jsx somehow
 - recreate original eggshell functionality
 - some kind of styling (semantic UI? sass?)
+- unit tests
 
 ### Resources
 
